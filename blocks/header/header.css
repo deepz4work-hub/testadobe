@@ -241,6 +241,10 @@ header nav .nav-sections .default-content-wrapper{
  padding:20px;
 
   }
+    header nav .nav-sections .default-content-wrapper > ul > li:hover {
+      background-color: var(--background-color);
+      color: var(--text-color);
+    }
 
   header nav .nav-sections .default-content-wrapper > ul > li > ul {
     display: none;
