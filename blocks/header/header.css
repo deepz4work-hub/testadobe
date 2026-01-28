@@ -72,7 +72,7 @@ header nav .nav-hamburger button {
   border: 0;
   border-radius: 0;
   padding: 0;
-  background-color: var(--background-color);
+  background-color: var(--nav-background-color);
   color: inherit;
   overflow: initial;
   text-overflow: initial;
@@ -206,7 +206,7 @@ header nav .nav-sections ul > li > ul > li {
     content: '';
     display: inline-block;
     position: absolute;
-    top: 0.5em;
+    top: 0.2em;
     right: 2px;
     transform: rotate(135deg);
     width: 6px;
@@ -217,15 +217,16 @@ header nav .nav-sections ul > li > ul > li {
   }
 
   header nav .nav-sections .nav-drop[aria-expanded='true']::after {
-    top: unset;
-    bottom: 0.5em;
+    bottom: 0.2em;
     transform: rotate(315deg);
   }
 
   header nav .nav-sections ul {
     display: flex;
+    justify-content:space-around;
     gap: 24px;
     margin: 0;
+    
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li {
@@ -252,7 +253,7 @@ header nav .nav-sections ul > li > ul > li {
   header nav .nav-sections .default-content-wrapper > ul > li > ul::before {
     content: '';
     position: absolute;
-    top: -8px;
+    /* top: -8px; */
     left: 16px;
     width: 0;
     height: 0;
