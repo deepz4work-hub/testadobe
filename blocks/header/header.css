@@ -190,6 +190,7 @@ header nav .nav-sections ul > li > ul > li {
     display: block;
     visibility: visible;
     white-space: nowrap;
+    height: 100%;
   }
 
   header nav[aria-expanded='true'] .nav-sections {
@@ -226,14 +227,19 @@ header nav .nav-sections ul > li > ul > li {
     justify-content:space-around;
     gap: 24px;
     margin: 0;
-    
+    height: 100%;
+    text-align: center;
   }
-
+header nav .nav-sections .default-content-wrapper{
+  height: 100%;
+}
   header nav .nav-sections .default-content-wrapper > ul > li {
     flex: 0 1 auto;
     position: relative;
  font-family: var(--nav-font-family);
- color:var(--light-color)
+ color:var(--light-color);
+ padding:20px;
+
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li > ul {
