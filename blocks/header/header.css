@@ -232,6 +232,8 @@ header nav .nav-sections ul > li > ul > li {
   header nav .nav-sections .default-content-wrapper > ul > li {
     flex: 0 1 auto;
     position: relative;
+ font-family: var(--nav-font-family);
+ color:var(--light-color)
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li > ul {
@@ -254,6 +256,7 @@ header nav .nav-sections ul > li > ul > li {
     content: '';
     position: absolute;
     /* top: -8px; */
+   
     left: 16px;
     width: 0;
     height: 0;
